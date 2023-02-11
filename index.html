@@ -24,6 +24,14 @@
         padding: 36px 15px 70px 15px;
       }
 
+      .header-right .start-img {
+        bottom: 10px !important;
+      }
+
+      .lets-you-row {
+        padding: 0 50px;
+      }
+
       .one-solution-table {
         text-align: center;
       }
@@ -44,6 +52,31 @@
         padding: 50px 20px !important;
       }
 
+
+
+      .detail-table .left-column .icon-table .icon {
+        text-align: right;
+        width: 40%;
+      }
+
+      .detail-table .left-column .icon-table .header {
+        text-align: left;
+        width: 60%;
+      }
+
+
+
+      .detail-table .right-column .icon-table .icon {
+        text-align: right;
+        width: 40%;
+      }
+
+      .detail-table .right-column .icon-table .header {
+        text-align: left;
+        width: 60%;
+      }
+
+
     }
 
     /* midsizes */
@@ -59,6 +92,10 @@
     @media only screen and (max-width: 600px) {
       .container {
         width: 100%;
+      }
+
+      .advance-table {
+        padding: 15px 30px 70px 50px !important;
       }
 
       .header-left {
@@ -119,6 +156,38 @@
       .join-together-table .right-column {
         /* padding: 50px 20px !important; */
         width: 100%;
+      }
+
+      .detail-table {
+        padding: 50px 50px !important;
+      }
+
+      .detail-table .left-column {
+        width: 100%;
+      }
+
+      .detail-table .left-column .icon-table .icon {
+        text-align: right;
+        width: 40%;
+      }
+
+      .detail-table .left-column .icon-table .header {
+        text-align: left;
+        width: 60%;
+      }
+
+      .detail-table .right-column {
+        width: 100%;
+      }
+
+      .detail-table .right-column .icon-table .icon {
+        text-align: right;
+        width: 40%;
+      }
+
+      .detail-table .right-column .icon-table .header {
+        text-align: left;
+        width: 60%;
       }
 
     }
@@ -244,7 +313,8 @@
                 <!-- start image -->
                 <tr>
                   <td align="center" style="padding-top: 50px">
-                    <img src="images/smartwatch.png" alt="watch image" style="position: relative; bottom: -10px;" />
+                    <img class="start-img" src="images/smartwatch.png" alt="watch image"
+                      style="position: relative; bottom: -10px;" />
                   </td>
                 </tr>
                 <!-- end image -->
@@ -765,10 +835,10 @@
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td width="20%" align="center">
+                              <td class="icon" width="20%" align="center">
                                 <img src="images/menu_icon.png" alt="">
                               </td>
-                              <td width="70%" align="center">
+                              <td class="header" width="70%" align="center">
                                 <h5 style="
                           font-family: 'Open Sans', sans-serif;
                           color: #333333;
@@ -819,10 +889,10 @@
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td width="20%" align="center">
+                              <td class="icon" width="20%" align="center">
                                 <img src="images/retina_icon.png" alt="">
                               </td>
-                              <td width="70%" align="center">
+                              <td class="header" width="70%" align="center">
                                 <h5 style="
                                     font-family: 'Open Sans', sans-serif;
                                     color: #333333;
@@ -880,10 +950,10 @@
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td width="20%" align="center">
+                              <td class="icon" width="20%" align="center">
                                 <img src="images/settings_icon.png" alt="">
                               </td>
-                              <td width="70%" align="center">
+                              <td class="header" width="70%" align="center">
                                 <h5 style="
                           font-family: 'Open Sans', sans-serif;
                           color: #333333;
@@ -934,10 +1004,10 @@
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td width="20%" align="center">
+                              <td class="icon" width="20%" align="center">
                                 <img src="images/check_icon.png" alt="">
                               </td>
-                              <td width="70%" align="center">
+                              <td class="header" width="70%" align="center">
                                 <h5 style="
                         font-family: 'Open Sans', sans-serif;
                         color: #333333;
@@ -995,10 +1065,10 @@
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td width="20%" align="center">
+                              <td class="icon" width="20%" align="center">
                                 <img src="images/menu_icon.png" alt="">
                               </td>
-                              <td width="70%" align="center">
+                              <td class="header" width="70%" align="center">
                                 <h5 style="
                           font-family: 'Open Sans', sans-serif;
                           color: #333333;
@@ -1049,10 +1119,10 @@
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td width="20%" align="center">
+                              <td class="icon" width="20%" align="center">
                                 <img src="images/share_icon.png" alt="">
                               </td>
-                              <td width="70%" align="center">
+                              <td class="header" width="70%" align="center">
                                 <h5 style="
                         font-family: 'Open Sans', sans-serif;
                         color: #333333;
