@@ -5,55 +5,46 @@
 body,
 html, 
 .body {
-  background: #f3f3f3 !important;
+  background: #e4e5ea !important;
+  background-color: #e4e5ea;
 }
 
-.container.header {
-  background: #f3f3f3;
-}
-
-.body-drip {
-  border-top: 8px solid #663399;
-}
-
-// Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #ff690f;
+  background-color: #ff690f;
+  .columns{
+    padding: 20px;
+    .logo-white{
+      width: 128px;
+    }
+    .user-icon{
+      width: 32px;
+    }
+  }
 }
 
-.header .columns {
-  padding-bottom: 0;
-}
-
-.header p {
-  color: #fff;
-  padding-top: 15px;
-}
-
-.header .wrapper-inner {
-  padding: 20px;
-}
-
-.header .container {
-  background: transparent;
-}
-
-// Social Media
-table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
-}
-
-table.button.twitter table td {
-  background: #1daced !important;
-  border-color: #1daced;
-}
-
-table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
-}
-
-.wrapper.secondary {
-  background: #f3f3f3;
+.sub-header {
+  background: #d65600;
+  background-color: #d65600;
+  .columns{
+    padding: 5px 10px;
+    
+    
+    a{
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .icons{
+      width: 20px;
+      margin-right:10px ;
+    }
+  }
+  .menu-divider{
+    display: block;
+    height: 20px;
+    width: 2px;
+    background-color: #ff690f;
+    background: #ff690f;
+  }
 }
