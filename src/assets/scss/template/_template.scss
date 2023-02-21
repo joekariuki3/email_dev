@@ -7,11 +7,12 @@ html,
 .body {
   background: #e4e5ea !important;
   background-color: #e4e5ea;
+  padding-bottom: 2000px;
 }
 
 .header {
-  background: #ff690f;
-  background-color: #ff690f;
+  background: $primary-color;
+  background-color: $primary-color;
   .columns{
     padding: 20px;
     .logo-white{
@@ -27,7 +28,8 @@ html,
   background: #d65600;
   background-color: #d65600;
   .columns{
-    padding: 5px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     
     
     a{
@@ -37,14 +39,274 @@ html,
     }
     .icons{
       width: 20px;
-      margin-right:10px ;
+      margin-right:10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    th{
+      text-align: center;
     }
   }
   .menu-divider{
     display: block;
     height: 20px;
     width: 2px;
-    background-color: #ff690f;
-    background: #ff690f;
+    background-color: $primary-color;
+    background: $primary-color;
+  }
+}
+
+.deal-of-day{
+  background:#13191f ;
+  background-color: #13191f;
+  .columns{
+    th{
+      padding-top: 30px !important;
+      padding-bottom: 20px;
+    }
+  }
+  img{
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+  h2{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  p{
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+  }
+  span{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    &.save-amount{
+      font-size: 14px;
+    }
+    &.tiny-info{
+      font-size:10px ;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+    &.price{
+      font-size:20px ;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    
+  }
+  .button{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    &:hover{
+      color: $primary-color;
+    }
+  }
+
+
+}
+
+.content-area{
+  background:#f1f4f7 ;
+  background-color: #f1f4f7;
+  & > tbody > tr > th {
+    padding-top:16px;
+   padding-bottom: 0;
+  }
+  .offer{
+    background:#ffffff ;
+    background-color: #ffffff;
+    .columns{
+      th{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    }
+    img{
+      padding-bottom: 20px;
+      border-radius: 5px;
+    }
+    p{
+      padding-bottom: 20px;
+      color: #334755;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+    }
+    span{
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      display: block;
+      &.save-amount{
+        font-size: 14px;
+        color: #1a88f3;
+      }
+      &.tiny-info{
+        font-size:10px ;
+        font-weight: 500;
+        color: #334755;
+        padding-bottom: 10px;
+      }
+      &.price{
+        font-size:20px ;
+        font-weight: 600;
+        color: #334755;
+        padding-bottom: 10px;
+      }
+      
+    }
+    .button{
+      background: #14181c;
+      background-color: #14181c;
+      display: inline-block;
+      width: 150px;
+      text-align: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border: 1px solid white;
+      border-radius: 3px;
+      color: white;
+      &:hover{
+        color: $primary-color;
+      }
+    }
+  &.last-offer{
+    .group-icons{
+      width: 190px;
+      margin: 0 auto;
+      padding-bottom: 0;
+    }
+    h4{
+      padding-bottom:0;
+      color: #334755;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+    }
+    p{
+      padding-bottom: 20px;
+      color: #334755;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  
+  }
+}
+.footer-top{
+  background-color: #222d37;
+  background: #222d37;
+
+  & > tbody > tr > th {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  th{
+    padding-bottom: 0;
+  }
+  .info-section span{
+    display: block;
+    color: white;
+    padding-left: 10px;
+    
+  }
+  .info{
+    font-size: 10px;
+  }
+  .call-to-action{
+    font-size: 15px;
+  }
+  .store-logos img{
+    height: 40px;
+    width: 120px;
+  }
+  .apple-logo img{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .google-logo img{
+    padding-right: 0;
+    padding-left: 5px;
+  }
+}
+
+.footer-socials {
+  background: #14181c;
+  background-color: #14181c;
+  .columns{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    // .logo-section{}
+    .logo-orange{
+      width: 128px;
+    }
+    .social-icons{
+      margin: 0 auto;
+    }
+    .social-icon{
+      width: 32px;
+      display: inline-block;
+      padding: 2px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.footer-menu{
+  background: #14181c;
+  background-color: #14181c;
+  border-bottom: 1px solid #2d3e4b;
+  border-top: 1px solid #2d3e4b;
+  .columns{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    a{
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .icons{
+      width: 20px;
+      margin-right:10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    th{
+      text-align: center;
+    }
+  }
+  .menu-divider{
+    display: block;
+    height: 20px;
+    width: 2px;
+    background-color: #2d3e4b;
+    background: #2d3e4b;
   }
 }
