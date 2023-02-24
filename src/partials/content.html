@@ -2,7 +2,7 @@
     <row class="deal-of-day">
         <columns>
             <h2>Deal of the day</h2>
-            <img src=" {{root}} {{kayakEmail.dealOfTheDay.image}}">
+            <img src="{{kayakEmail.dealOfTheDay.image}}">
             <p>
                 {{kayakEmail.dealOfTheDay.location}}{{kayakEmail.dealOfTheDay.description}}
             </p>
@@ -20,7 +20,7 @@
             {{#each kayakEmail.offers}}
             <row class="offer first-offer">
                 <columns>
-                    <img src="{{root}}{{this.image}}">
+                    <img src="{{this.image}}">
                     <p>
                         {{this.location}}{{this.description}}
                     </p>
@@ -43,7 +43,8 @@
                     <row>
                         <columns>
                             <center>
-                                <img src="{{root}}/assets/img/airplane_dark.png" class="group-icons">
+                                <img src="https://joelmuhoho.com/emails/kayak_email/images/airplane_dark.png"
+                                    class="group-icons">
                             </center>
                         </columns>
                     </row>

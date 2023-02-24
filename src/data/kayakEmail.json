@@ -7,7 +7,7 @@
         "tinyInfo": "Gate 1 Travel",
         "price": "$649+",
         "link": "#",
-        "image": "/assets/img/ireland.png"
+        "image": "https://joelmuhoho.com/emails/kayak_email/images/ireland.png"
 
     },
     "offers":
@@ -19,7 +19,7 @@
             "tinyInfo": "CheapCaribean.com",
             "price": "$689+",
             "link": "#",
-            "image": "/assets/img/cancun.png"
+            "image": "https://joelmuhoho.com/emails/kayak_email/images/cancun.png"
         },
         {
             "location": "China: ",
@@ -28,7 +28,7 @@
             "tinyInfo": "chinaAir.com",
             "price": "$800+",
             "link": "#",
-            "image": "/assets/img/china.jpg"
+            "image": "https://joelmuhoho.com/emails/kayak_email/images/china.jpg"
         },
         {
             "location": "London: ",
@@ -37,7 +37,7 @@
             "tinyInfo": "LondonBooking.com",
             "price": "$340+",
             "link": "#",
-            "image": "/assets/img/london.png"
+            "image": "https://joelmuhoho.com/emails/kayak_email/images/london.png"
         }
     ]
 }
