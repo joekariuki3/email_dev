@@ -1,0 +1,126 @@
+<mjml>
+<mj-head>
+    <mj-attributes>
+    <mj-class name="textcolor" color="#1e1e1e" />
+    <mj-class name="title" align="center" font-size="20px"/>
+    <mj-class name="paragraph" font-size="16px" line-height="1.8" padding="20px" />
+    <mj-class name="button" border-radius="23px" padding="30px 35px" background-color="#15c" font-size="16px" href="https://joelmuhoho.com" />
+    <mj-text padding="0"/>   
+    </mj-attributes>
+    
+</mj-head>
+<mj-body background-color="#eeeeee" width="580px">
+<!-- start header logo -->
+<mj-section>
+<mj-column>
+    <mj-image padding="0" width="187px" height="47px" align="left" src="https://joelmuhoho.com/projects/emails/calendly_email/images/calendly-logo.webp" alt="calendly-logo-image"/> 
+</mj-column>
+</mj-section>
+<!-- end header logo -->
+
+<!-- start 1st section -->
+<mj-section background-color="#ffffff"border-radius="10px 10px 0 0" padding="0 0 20px 0">
+    <mj-column >
+        <mj-image padding="0" border-radius="10px 10px 0 0" src="https://joelmuhoho.com/projects/emails/calendly_email/images/calendlyheader.webp" alt="calendly-header-image"/>   
+        <mj-text mj-class="title textcolor" padding="0 0 0 0">
+            <h1>
+            Automate reminders with a personalized feel.
+            </h1>
+        </mj-text> 
+        <mj-text mj-class="paragraph textcolor"  padding-top="0">
+            <p>
+                Your time is your most valuable asset. Save yourself the no-show headache and heartache by automating your meeting communication with
+                <a  href="https://joelmuhoho.com" style="text-decoration:none;">
+                workflows
+                </a>
+                . It's easy to set up personalised messages like:
+            </p>
+            <ul>
+                <li>A text or email reminder the day before your meeting </li>
+                <li>A text notification when someone new schedules with you</li>
+                <li>A thank-you email after your meeting </li>
+            </ul>
+        </mj-text>
+        <mj-button  mj-class="button">
+            Create a Workflow
+        </mj-button>
+    </mj-column>
+</mj-section>
+<!-- end 1st section -->
+
+<mj-section>
+</mj-section>
+
+<!-- start 2nd section -->
+<!-- title -->
+<mj-section background-color="#ffffff">
+    <mj-column>
+    <mj-text mj-class="title textcolor">
+        <h1>
+        Plus, integrate with your existing tools:
+        </h1>
+    </mj-text>
+    </mj-column>
+</mj-section>
+
+<!-- tools columns -->
+<mj-section background-color="#ffffff" padding="0px 30px 0 30px" text-align="center">
+    <mj-column css-class="tools-columns" >
+        <mj-image src="https://joelmuhoho.com/projects/emails/calendly_email/images/calendlygmaillogo.webp" alt="calendly-Gmail-logo" width="70px" height="70px" />
+        <mj-text font-size="18px" font-weight="bold" color="#006bff" align="center">
+        <p>Gmail for wokflow</p>
+        </mj-text>
+        <mj-text mj-class="paragraph textcolor" align="center">
+        <p>Send emails with Workflows from your Gmail account.</p>
+        </mj-text> 
+        </mj-column>
+    
+        <mj-column css-class="tools-columns">
+        <mj-image src="https://joelmuhoho.com/projects/emails/calendly_email/images/calendlyoutlooklogo.webp" alt="calendly-Gmail-logo" width="70px" height="70px" />
+        <mj-text font-size="18px" font-weight="bold" color="#006bff" align="center">
+        Outlook for wokflow
+        </mj-text>
+        <mj-text mj-class="paragraph textcolor" align="center">
+         <p>Send emails with Workflows from your Outlook account.</p>
+        </mj-text> 
+    </mj-column>
+    <mj-column css-class="tools-columns">
+        <mj-image src="https://joelmuhoho.com/projects/emails/calendly_email/images/calendlychromelogo.webp" alt="calendly-Gmail-logo" width="70px" height="70px" />
+        <mj-text font-size="18px" font-weight="bold" color="#006bff" align="center">
+        Calendly for Chrome
+        </mj-text>
+        <mj-text mj-class="paragraph textcolor" align="center">
+         <p>Access your links, create one-offs, add times to email, and more.</p>
+        </mj-text> 
+    </mj-column>
+</mj-section>
+<!-- button -->
+<mj-section background-color="#ffffff" padding="0">
+    <mj-column>
+        <mj-button mj-class="button" >
+            View all intergrations
+        </mj-button>
+    </mj-column>
+</mj-section>
+<!-- end 2nd section -->
+
+<!-- start footer -->
+
+<mj-section>
+    <mj-column>
+    <mj-text font-size="12px" color="rgb(168, 168, 168)">
+        Sent from Calendly <br>
+        115 E. Main Street, Suite A1B,<br>
+        Buford, GA 30518
+    </mj-text>
+    <mj-divider padding="10px 0 10px 0" border-color="#1e1e1e1e" border-width="0.2px"/>
+     <mj-text padding="0" font-size="12px" color="rgb(168, 168, 168)">
+         <a href="https://joelmuhoho.com" style="text-decoration:none;color:#1e1e1e
+         ">Unsubscribe</a> from our emails
+    </mj-text>
+       
+    </mj-column>
+</mj-section>
+
+</mj-body>
+</mjml>
