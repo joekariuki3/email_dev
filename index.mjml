@@ -1,0 +1,85 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#f9fefb">
+
+    <!--start header -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://joelmuhoho.com/projects/emails/spotify_email/images/spotify-logo-green.png" alt="spotify-logo-green" width="122px" height="37px" align="left" />
+      </mj-column>
+    </mj-section>
+    <!-- end header -->
+
+<!-- reciept -->
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+          <h1 style="font-size:30px; color:#555555; text-transform:capitalize;padding:0 0 5px 0;">Your spotify premium receipt</h1>
+          <p style="font-size:16px;color:#616467;font-weight:400;">Feb 27, 2023</p>
+          <p style="font-size:16px;color:#616467;font-weight:400;padding:0 0 5px 0;">Order ID: 527h5253107-1-1</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    
+    <mj-section>
+      <mj-column>
+        <mj-table width="418px" align="center">
+          <tr style="border:1px solid #1e1e1e1e;background-color:#f7f7f7;">
+            <td>
+              <p style="font-size:18px;color:#616467;font-weight:700;padding:0 20px;text-align:left;"> Spotify Premium</p>
+              <p style="font-size:16px;color:#616467;font-weight:400;padding:0 20px;text-align:left;">3 months</p>
+            </td>
+            <td>
+              <p style="font-size:16px;color:#616467;font-weight:400;padding:0 20px;text-align:right;">Ksh0.00</p>
+            </td>
+          </tr>
+          <tr style="border:1px solid #1e1e1e1e;background-color:#f7f7f7;">
+            <td>
+              <p style="font-size:18px;color:#616467;font-weight:700;padding:0 20px;text-align:left;"> Total</p>
+            </td>
+            <td>
+              <p style="font-size:16px;color:#616467;font-weight:400;padding:0 20px;text-align:right;">Ksh0.00</p>
+            </td>
+          </tr>
+        </mj-table>
+        <mj-text align="center">
+          <p style="font-size:20px;color:#616467;font-weight:700;">Payment Method</p>
+          <p style="font-size:16px;color:#616467;font-weight:400;padding:0 0 5px 0;">card</p>
+        </mj-text>
+        <mj-text align="center">
+          <p style="font-size:20px;color:#616467;font-weight:700;">Username</p>
+          <p style="font-size:16px;color:#616467;font-weight:400;padding:0 0 5px 0;">31xlycrdrkcwkgeparceyzu</p>
+          <p style="font-size:13px;color:#616467;line-height:20px;padding:0  5px;">
+            You agree that if you do not cancel your subscription before the end of your trial period, you will automatically be charged the Ksh299.00 subscription fee for Premium every month until you cancel. <a href="#">Terms</a> apply. You can cancel your Spotify Premium subscription at any time on your Account <a href="#">page</a> following the instructions <a href="#">here</a>.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section >
+    <!-- recipt -->
+
+    <!-- Footer -->
+    <mj-section background-color="red" padding="0">
+      <mj-column padding="0">
+        <mj-image src="https://joelmuhoho.com/projects/emails/spotify_email/images/spotify-logo-gray.png" alt="spotify-logo-gray" width="77px" height="23px" align="left" padding="20px 20px 20px 20px"/>
+        <mj-table align="center">
+          <tr style="border-bottom:1px solid #1e1e1e1e;
+            border-top:1px solid #1e1e1e1e; color:#6d6d6d;">
+            <td style="padding:0; line-height:35px;">
+            Get Spotify for: iPhone</td>
+            <td style="padding:0;">ipad</td>
+            <td style="padding:0;">Android</td>
+            <td style="padding:0;">Others</td>
+          </tr>
+        </mj-table>
+
+      </mj-column>
+
+    </mj-section>
+    <!-- Footer -->
+  </mj-body>
+</mjml>
