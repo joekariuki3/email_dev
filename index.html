@@ -22,6 +22,7 @@
       }
     }
 
+
     /* mobile */
 
     @media only screen and (max-width: 600px) {
@@ -33,9 +34,7 @@
         bottom: 10px !important;
       }
 
-      .advance-table {
-        padding: 15px 30px 70px 50px !important;
-      }
+
 
       .header-left {
         width: 100%;
@@ -47,12 +46,7 @@
 
       }
 
-      .header-right .start-img {
-        width: 200px;
-        height: 200px;
 
-
-      }
 
       .lets-you-row .left-column {
         width: 50%;
@@ -69,9 +63,15 @@
 
       }
 
+      .advance-table {
+        padding: 15px 30px 70px 30px !important;
+      }
+
       .advance-table .img-head {
         width: 100%;
         text-align: center;
+        padding: 0 !important;
+        border-radius: 5px;
       }
 
       .advance-table .left-column-appstore {
@@ -113,6 +113,7 @@
 
       .detail-table .left-column {
         width: 100%;
+        text-align: center;
       }
 
       .detail-table .left-column .icon-table .icon {
@@ -130,7 +131,8 @@
         width: 100%;
       }
 
-      .detail-table .right-column .icon-table .icon {
+
+      */ .detail-table .right-column .icon-table .icon {
         text-align: right;
         width: 40%;
         padding-right: 10px;
@@ -174,26 +176,15 @@
             <td>
               <!-- start of left column -->
               <table class="header-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="
-                    background: #65fffd;
-                    background: -moz-linear-gradient(
-                      -45deg,
-                      #65fffd 0%,
-                      #2296ee 100%
-                    );
-                    background: -webkit-linear-gradient(
-                      -45deg,
-                      #65fffd 0%,
-                      #2296ee 100%
-                    );
-                    background: linear-gradient(
-                      135deg,
-                      #65fffd 0%,
-                      #2296ee 100%
-                    );
+                    background: #a01201; /* Old browsers */
+                background: -moz-linear-gradient(-45deg, #a01201 0%, #e21e11 50%, #eb613b 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(-45deg, #a01201 0%,#e21e11 50%,#eb613b 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(135deg, #a01201 0%,#e21e11 50%,#eb613b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                     padding: 15px 15px 70px 15px;
                   ">
                 <td style="color: white">
-                  <img src="https://joelmuhoho.com/projects/emails/watch_email/images/logo.png" alt="Huawei" />
+                  <img src="https://joelmuhoho.com/projects/emails/watch_email/images/huawei-logo.webp" alt="Huawei"
+                    width="75px" height="75px" />
                   <h2 style="
                         font-size: 30px;
                         margin: 0;
@@ -255,6 +246,7 @@
           <tr>
             <td class="lets-you-row" style="background: #fafafa">
               <table>
+                <!-- start title -->
                 <tr>
                   <td>
                     <h3 align="center" style="
@@ -269,171 +261,245 @@
                     </h3>
                   </td>
                 </tr>
+                <!-- end title -->
 
-                <tr>
+                <tr style="text-align: center; line-height: 1.4; padding: 0; margin: 0;">
                   <td>
+
                     <!-- start of left-column -->
                     <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding: 15px 15px 70px 15px">
                       <tr>
                         <td>
                           <table class="header-left" width="33.33%" align="left" cellspacing="0" cellpadding="0"
-                            border="0" style="padding: 0">
+                            style="padding: 0">
                             <tr>
                               <td>
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/bell_icon.webp"
-                                  alt="" srcset="" />
-                              </td>
-                              <td style="
+                                <table width="100%">
+                                  <!-- start icon and name -->
+                                  <tr>
+                                    <td>
+                                      <table>
+                                        <tr>
+                                          <td><img
+                                              src="https://joelmuhoho.com/projects/emails/watch_email/images/bell_icon.webp"
+                                              alt="" align="center" /></td>
+                                          <td>
+                                            <p style="
                                         font-family: 'Open Sans', sans-serif;
                                         color: #333333;
-                                        padding: 0 0 0 15px;
+                                        padding: 0 0 0 5px;
                                         font-weight: 600;
                                         text-transform: uppercase;
                                         font-size: 14px;
+                                        text-align: center;
                                       ">
-                                Notify
+                                              Notify
+                                            </p>
+                                          </td>
+                                        </tr>
+                                      </table>
+
+                                    </td>
+                                  </tr>
+                                  <!-- end icon and name -->
+
+                                  <!-- start paragraph -->
+                                  <tr width="100%" style="padding: 0; margin: 0;">
+                                    <td>
+                                      <p style="
+                                                font-family: 'Open Sans', sans-serif;
+                                                color: #7f8887;
+                                                font-weight: 300;
+                                                font-size: 14px;
+                                                
+                                              ">Allows users to receive alerts and notifications from their smartphones
+                                        directly on their watch.
+                                      </p>
+                                    </td>
+                                  </tr>
+                                  <!-- end paragraph -->
+
+                                  <!-- start of link -->
+                                  <tr>
+                                    <td>
+                                      <a href="#" style="
+                                                  font-family: 'Open Sans', sans-serif;
+                                                  color: #2792ce;
+                                                  font-weight: 600;
+                                                  font-size: 14px;
+                                                  text-decoration: none;
+                                                ">Learn More</a>
+                                    </td>
+                                  </tr>
+                                  <!-- end of link -->
+
+                                </table>
                               </td>
                             </tr>
                           </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p style="
-                                    font-family: 'Open Sans', sans-serif;
-                                    color: #7f8887;
-                                    font-weight: 300;
-                                    font-size: 14px;
-                                    line-height: 1.8;
-                                  ">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Dicta sit rem odio recusandae
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="#" style="
-                                    font-family: 'Open Sans', sans-serif;
-                                    color: #2792ce;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    text-decoration: none;
-                                  ">Learn More</a>
                         </td>
                       </tr>
                     </table>
                     <!-- end of left-column -->
 
-
                     <!-- start of middle-column -->
-                    <table class="middle-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding: 15px 15px 70px 15px">
                       <tr>
                         <td>
                           <table class="header-left" width="33.33%" align="left" cellspacing="0" cellpadding="0"
-                            border="0" style="padding: 0">
+                            style="padding: 0">
                             <tr>
                               <td>
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/share_icon.webp"
-                                  alt="" srcset="" />
-                              </td>
-                              <td style="
-                                        font-family: 'Open Sans', sans-serif;
-                                        color: #333333;
-                                        padding: 0 0 0 15px;
-                                        font-weight: 600;
-                                        text-transform: uppercase;
-                                        font-size: 14px;
-                                      ">
-                                Share
+                                <table width="100%">
+                                  <!-- start icon and name -->
+                                  <tr>
+                                    <td>
+                                      <table>
+                                        <tr>
+                                          <td><img
+                                              src="https://joelmuhoho.com/projects/emails/watch_email/images/share_icon.webp"
+                                              alt="" align="center" /></td>
+                                          <td>
+                                            <p style="
+                                       font-family: 'Open Sans', sans-serif;
+                                       color: #333333;
+                                       padding: 0 0 0 5px;
+                                       font-weight: 600;
+                                       text-transform: uppercase;
+                                       font-size: 14px;
+                                       text-align: center;
+                                     ">
+                                              Share
+                                            </p>
+                                          </td>
+                                        </tr>
+                                      </table>
+
+                                    </td>
+                                  </tr>
+                                  <!-- end icon and name -->
+
+                                  <!-- start paragraph -->
+                                  <tr width="100%" style="padding: 0; margin: 0;">
+                                    <td>
+                                      <p style="
+                                               font-family: 'Open Sans', sans-serif;
+                                               color: #7f8887;
+                                               font-weight: 300;
+                                               font-size: 14px;
+                                               
+                                             ">
+                                        Enables users to send and receive data between their smartwatch and other
+                                        devices.
+                                      </p>
+                                    </td>
+                                  </tr>
+                                  <!-- end paragraph -->
+
+                                  <!-- start of link -->
+                                  <tr>
+                                    <td>
+                                      <a href="#" style="
+                                                 font-family: 'Open Sans', sans-serif;
+                                                 color: #2792ce;
+                                                 font-weight: 600;
+                                                 font-size: 14px;
+                                                 text-decoration: none;
+                                               ">Learn More</a>
+                                    </td>
+                                  </tr>
+                                  <!-- end of link -->
+
+                                </table>
                               </td>
                             </tr>
                           </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <p style="
-                                    font-family: 'Open Sans', sans-serif;
-                                    color: #7f8887;
-                                    font-weight: 300;
-                                    font-size: 14px;
-                                    line-height: 1.8;
-                                  ">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Dicta sit rem odio recusandae
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="#" style="
-                                    font-family: 'Open Sans', sans-serif;
-                                    color: #2792ce;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    text-decoration: none;
-                                  ">Learn More</a>
                         </td>
                       </tr>
                     </table>
                     <!-- end of middle-column -->
 
                     <!-- start of right-column -->
-                    <table class="right-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
+                    <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding: 15px 15px 70px 15px">
                       <tr>
                         <td>
                           <table class="header-left" width="33.33%" align="left" cellspacing="0" cellpadding="0"
-                            border="0" style="padding: 0">
+                            style="padding: 0">
                             <tr>
                               <td>
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/wifi_icon.webp"
-                                  alt="" srcset="" />
-                              </td>
-                              <td style="
-                                        font-family: 'Open Sans', sans-serif;
-                                        color: #333333;
-                                        padding: 0 0 0 15px;
-                                        font-weight: 600;
-                                        text-transform: uppercase;
-                                        font-size: 14px;
-                                      ">
-                                connect
+                                <table width="100%" align="center">
+                                  <!-- start icon and name -->
+                                  <tr>
+                                    <td>
+                                      <table>
+                                        <tr>
+                                          <td><img
+                                              src="https://joelmuhoho.com/projects/emails/watch_email/images/wifi_icon.webp"
+                                              alt="" align="center" /></td>
+                                          <td>
+                                            <p style="
+                                       font-family: 'Open Sans', sans-serif;
+                                       color: #333333;
+                                       padding: 0 0 0 5px;
+                                       font-weight: 600;
+                                       text-transform: uppercase;
+                                       font-size: 14px;
+                                       text-align: center;
+                                     ">
+                                              Connect
+                                            </p>
+                                          </td>
+                                        </tr>
+                                      </table>
+
+                                    </td>
+                                  </tr>
+                                  <!-- end icon and name -->
+
+                                  <!-- start paragraph -->
+                                  <tr width="100%" style="padding: 0; margin: 0;">
+                                    <td>
+                                      <p style="
+                                               font-family: 'Open Sans', sans-serif;
+                                               color: #7f8887;
+                                               font-weight: 300;
+                                               font-size: 14px;
+                                               
+                                               
+                                             ">
+                                        Enables users to connect their watch to other devices via Bluetooth or Wi-Fi for
+                                        seamless integration and control.
+                                      </p>
+                                    </td>
+                                  </tr>
+                                  <!-- end paragraph -->
+
+                                  <!-- start of link -->
+                                  <tr>
+                                    <td>
+                                      <a href="#" style="
+                                                 font-family: 'Open Sans', sans-serif;
+                                                 color: #2792ce;
+                                                 font-weight: 600;
+                                                 font-size: 14px;
+                                                 text-decoration: none;
+                                               ">Learn More</a>
+                                    </td>
+                                  </tr>
+                                  <!-- end of link -->
+
+                                </table>
                               </td>
                             </tr>
                           </table>
                         </td>
                       </tr>
-                      <tr>
-                        <td>
-                          <p style="
-                                    font-family: 'Open Sans', sans-serif;
-                                    color: #7f8887;
-                                    font-weight: 300;
-                                    font-size: 14px;
-                                    line-height: 1.8;
-                                  ">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Dicta sit rem odio recusandae
-                          </p>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          <a href="#" style="
-                                    font-family: 'Open Sans', sans-serif;
-                                    color: #2792ce;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    text-decoration: none;
-                                  ">Learn More</a>
-                        </td>
-                      </tr>
                     </table>
                     <!-- end of right-column -->
+
                   </td>
                 </tr>
 
@@ -450,15 +516,10 @@
 
                 <!-- start image-head -->
                 <tr>
-                  <td style="font-family: 'Open Sans', sans-serif;
-                  color: #333333;
-                  padding: 36px 0 5px 0;
-                  font-weight: 300;
-                  text-transform: uppercase;
-                  font-size: 24px;" align="center">
+                  <td style="font-family: 'Open Sans', sans-serif;padding: 10px 0 10px 0;" align="center">
                     <img class="img-head"
                       src="https://joelmuhoho.com/projects/emails/watch_email/images/huawei_fit2.webp" alt="huawei_fit2"
-                      width="100%" height="100%">
+                      width="100%">
                   </td>
                 </tr>
                 <!-- end image-head -->
@@ -474,7 +535,7 @@
                     text-transform: capitalize;
                     font-size: 24px;
                     margin: 0;
-                  ">Get <span style="font-weight: 500;">HUAWEI APP STORE</span> <br> Connect with us</h3>
+                  ">Get <span style="font-weight: 500;">Huawei Smart Watch app</span> <br> Connect with us</h3>
                   </td>
                 </tr>
                 <!-- end head -->
@@ -496,8 +557,7 @@
                     padding: 0 0 40px;
                     
                     ">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Dicta sit rem odio recusandae
+                            Huawei Smart Watch app is available on both the App Store.
                           </p>
                         </td>
                       </tr>
@@ -523,8 +583,7 @@
                     line-height: 1.8;
                     padding: 0 0 40px;
                     ">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Dicta sit rem odio recusandae
+                            Huawei Smart Watch app is available on both the Google Play Store
                           </p>
                         </td>
                       </tr>
@@ -548,17 +607,20 @@
 
           <!-- start of one-solution row(4) -->
           <tr>
+            <!-- start image -->
             <td>
               <table class="one-solution-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
-                style="padding:50px 0; margin-bottom: 30px;">
+                style="padding:0; margin-bottom: 0;">
                 <tr>
                   <td>
-                    <img src="https://joelmuhoho.com/projects/emails/watch_email/images/huawei_fit_2.jpeg" alt=""
-                      style="width: 100%;">
+                    <img
+                      src="https://joelmuhoho.com/projects/emails/watch_email/images/huawei-watch-fit-2-smart-watch.webp"
+                      alt="" style="width: 100%;">
                   </td>
                 </tr>
               </table>
             </td>
+            <!-- end image -->
           </tr>
           <!-- end of one-solution row(4) -->
 
@@ -566,7 +628,7 @@
           <tr>
             <td>
               <table class="join-together-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
-                style="padding:25px 0 15px; background: white;">
+                style="padding:25px 0 0; background: white;">
 
                 <!-- start header -->
                 <tr>
@@ -580,7 +642,7 @@
                       font-size: 24px;
                       margin: 0;
                       ">
-                      Lorem <span style="font-weight: 500;"> All joined Together </span>consectetur adipisi
+                      FIT2 <span style="font-weight: 500;"> Different Wrist bands </span>Available
                     </h3>
                   </td>
                 </tr>
@@ -610,7 +672,7 @@
                     font-size: 14px;
                     margin: 0;
                   ">
-                            Sync
+                            Sakura Pink
                           </h5>
                         </td>
                       </tr>
@@ -624,7 +686,7 @@
                     line-height: 1.8;
                     margin: 0;
                     padding: 0 0 15px 0;
-                  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                  ">Hey ladies</p>
                         </td>
                       </tr>
                       <tr>
@@ -635,7 +697,7 @@
                     font-weight: 600;
                     font-size: 14px;
                     text-decoration: none;
-                  " href="#">Learn more</a>
+                  " href="#">Get Yours</a>
                         </td>
                       </tr>
                     </table>
@@ -662,7 +724,7 @@
                     font-size: 14px;
                     margin: 0;
                   ">
-                            Share
+                            Isle Blue
                           </h5>
                         </td>
                       </tr>
@@ -676,7 +738,7 @@
                     line-height: 1.8;
                     margin: 0;
                     padding: 0 0 15px 0;
-                  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                  ">We are Neautral</p>
                         </td>
                       </tr>
                       <tr>
@@ -687,7 +749,7 @@
                     font-weight: 600;
                     font-size: 14px;
                     text-decoration: none;
-                  " href="#">Learn more</a>
+                  " href="#">Get Yours</a>
                         </td>
                       </tr>
                     </table>
@@ -714,7 +776,7 @@
                     font-size: 14px;
                     margin: 0;
                   ">
-                            Stats
+                            Black
                           </h5>
                         </td>
                       </tr>
@@ -728,7 +790,7 @@
                     line-height: 1.8;
                     margin: 0;
                     padding: 0 0 15px 0;
-                  ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                  ">Where are my Men</p>
                         </td>
                       </tr>
                       <tr>
@@ -739,7 +801,7 @@
                     font-weight: 600;
                     font-size: 14px;
                     text-decoration: none;
-                  " href="#">Learn more</a>
+                  " href="#">Get Yours</a>
                         </td>
                       </tr>
                     </table>
@@ -768,34 +830,38 @@
                       <tr>
                         <td align="center">
 
-                          <!-- start of icon table -->
+
                           <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td class="icon" width="20%" align="center">
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/menu_icon.webp"
-                                  alt="">
-                              </td>
-                              <td class="header" width="70%" align="center">
-                                <h5 style="
-                          font-family: 'Open Sans', sans-serif;
-                          color: #333333;
-                          padding: 0;
-                          font-weight: 600;
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          margin: 0;
-                        ">
-                                  Responsive Layout
-                                </h5>
+                              <td class="icon" width="100%">
+                                <!-- start of icon table -->
+                                <table align="center">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src=" https://joelmuhoho.com/projects/emails/watch_email/images/menu_icon.webp"
+                                        alt="menu_icon">
+                                    </td>
+                                    <td>
+                                      <h5 style="
+                                  font-family: 'Open Sans', sans-serif;
+                                  color: #333333;
+                                  padding: 0;
+                                  font-weight: 600;
+                                  text-transform: uppercase;
+                                  font-size: 14px;
+                                  margin: 0;">
+                                        Responsive Layout
+                                      </h5>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- end of icon table -->
                               </td>
                             </tr>
-                          </table>
-                          <!-- end of icon table -->
-
-                          <!-- Start of paragraph table -->
-                          <table>
+                            <!-- Start of paragraph -->
                             <tr>
                               <td width="100%" align="center">
                                 <p style="
@@ -806,12 +872,11 @@
                           line-height: 1.8;
                           margin: 0;
                           padding: 0;
-                        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        ">Apps in watch are responsive</p>
                               </td>
                             </tr>
+                            <!-- end of paragraph -->
                           </table>
-                          <!-- end of paragraph table -->
-
                         </td>
                       </tr>
                     </table>
@@ -823,17 +888,21 @@
                       <tr>
                         <td align="center">
 
-                          <!-- start of icon table -->
+                          <!-- start of RETINA table -->
                           <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td class="icon" width="20%" align="center">
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/retina_icon.webp"
-                                  alt="">
-                              </td>
-                              <td class="header" width="70%" align="center">
-                                <h5 style="
+                              <td class="icon" width="100%" align="center">
+                                <table>
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://joelmuhoho.com/projects/emails/watch_email/images/retina_icon.webp"
+                                        alt="">
+                                    </td>
+                                    <td>
+                                      <h5 style="
                                     font-family: 'Open Sans', sans-serif;
                                     color: #333333;
                                     padding: 0;
@@ -842,30 +911,33 @@
                                     font-size: 14px;
                                     margin: 0;
                                   ">
-                                  Retina Ready
-                                </h5>
+                                        Retina Ready
+                                      </h5>
+                                    </td>
+                                  </tr>
+                                </table>
+
+
                               </td>
                             </tr>
-                          </table>
-                          <!-- end of icon table -->
-
-                          <!-- Start of paragraph table -->
-                          <table>
+                            <!-- Start of paragraph  -->
                             <tr>
                               <td width="100%" align="center">
                                 <p style="
-                        font-family: 'Open Sans', sans-serif;
-                        color: #7f8887;
-                        font-weight: 300;
-                        font-size: 14px;
-                        line-height: 1.8;
-                        margin: 0;
-                        padding: 0;
-                      ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                                    font-family: 'Open Sans', sans-serif;
+                                    color: #7f8887;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 1.8;
+                                    margin: 0;
+                                    padding: 0;
+                                  ">Has retina display to protect your eyes
+                                </p>
                               </td>
                             </tr>
+                            <!-- end of paragraph -->
                           </table>
-                          <!-- end of paragraph table -->
+                          <!-- end of RETINA table -->
 
                         </td>
                       </tr>
@@ -876,43 +948,48 @@
                 </tr>
                 <!-- end row 1 -->
 
+
                 <!-- start row 2 -->
                 <tr>
                   <td>
-                    <!-- start Great Performance column -->
+                    <!-- start GREAT PERFORMANCE column -->
                     <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding:0; margin-bottom: 30px;">
                       <tr>
                         <td align="center">
 
-                          <!-- start of icon table -->
+
                           <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td class="icon" width="20%" align="center">
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/settings_icon.webp"
-                                  alt="">
-                              </td>
-                              <td class="header" width="70%" align="center">
-                                <h5 style="
-                          font-family: 'Open Sans', sans-serif;
-                          color: #333333;
-                          padding: 0;
-                          font-weight: 600;
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          margin: 0;
-                        ">
-                                  Great Performance
-                                </h5>
+                              <td class="icon" width="100%">
+                                <!-- start of icon table -->
+                                <table align="center">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src=" https://joelmuhoho.com/projects/emails/watch_email/images/settings_icon.webp"
+                                        alt="menu_icon">
+                                    </td>
+                                    <td>
+                                      <h5 style="
+                                  font-family: 'Open Sans', sans-serif;
+                                  color: #333333;
+                                  padding: 0;
+                                  font-weight: 600;
+                                  text-transform: uppercase;
+                                  font-size: 14px;
+                                  margin: 0;">
+                                        GREAT PERFORMANCE
+                                      </h5>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- end of icon table -->
                               </td>
                             </tr>
-                          </table>
-                          <!-- end of icon table -->
-
-                          <!-- Start of paragraph table -->
-                          <table>
+                            <!-- Start of paragraph -->
                             <tr>
                               <td width="100%" align="center">
                                 <p style="
@@ -923,71 +1000,77 @@
                           line-height: 1.8;
                           margin: 0;
                           padding: 0;
-                        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                        ">Apps performs fast no delay experienced</p>
                               </td>
                             </tr>
+                            <!-- end of paragraph -->
                           </table>
-                          <!-- end of paragraph table -->
-
                         </td>
                       </tr>
                     </table>
-                    <!-- End Great Performance column -->
+                    <!-- End GREAT PERFORMANCE column -->
 
-                    <!-- start Various skins column -->
+                    <!-- start Retina Ready column -->
                     <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding:0; margin-bottom: 30px;">
                       <tr>
                         <td align="center">
 
-                          <!-- start of icon table -->
+                          <!-- start of VARIOUS SKINS table -->
                           <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td class="icon" width="20%" align="center">
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/check_icon.webp"
-                                  alt="">
-                              </td>
-                              <td class="header" width="70%" align="center">
-                                <h5 style="
-                        font-family: 'Open Sans', sans-serif;
-                        color: #333333;
-                        padding: 0;
-                        font-weight: 600;
-                        text-transform: uppercase;
-                        font-size: 14px;
-                        margin: 0;
-                      ">
-                                  Various skins
-                                </h5>
+                              <td class="icon" width="100%" align="center">
+                                <table>
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://joelmuhoho.com/projects/emails/watch_email/images/check_icon.webp"
+                                        alt="">
+                                    </td>
+                                    <td>
+                                      <h5 style="
+                                    font-family: 'Open Sans', sans-serif;
+                                    color: #333333;
+                                    padding: 0;
+                                    font-weight: 600;
+                                    text-transform: uppercase;
+                                    font-size: 14px;
+                                    margin: 0;
+                                  ">
+                                        VARIOUS SKINS
+                                      </h5>
+                                    </td>
+                                  </tr>
+                                </table>
+
+
                               </td>
                             </tr>
-                          </table>
-                          <!-- end of icon table -->
-
-                          <!-- Start of paragraph table -->
-                          <table>
+                            <!-- Start of paragraph  -->
                             <tr>
                               <td width="100%" align="center">
                                 <p style="
-                        font-family: 'Open Sans', sans-serif;
-                        color: #7f8887;
-                        font-weight: 300;
-                        font-size: 14px;
-                        line-height: 1.8;
-                        margin: 0;
-                        padding: 0;
-                      ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                                    font-family: 'Open Sans', sans-serif;
+                                    color: #7f8887;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 1.8;
+                                    margin: 0;
+                                    padding: 0;
+                                  ">Variety of colors and customization available
+                                </p>
                               </td>
                             </tr>
+                            <!-- end of paragraph -->
                           </table>
-                          <!-- end of paragraph table -->
+                          <!-- end of VARIOUS SKINS table -->
 
                         </td>
                       </tr>
                     </table>
-                    <!-- End Various skins column -->
+                    <!-- End VARIOUS SKINS column -->
 
                   </td>
                 </tr>
@@ -996,40 +1079,44 @@
                 <!-- start row 3 -->
                 <tr>
                   <td>
-                    <!-- start User Friendly menu column -->
+                    <!-- start USER FRIENDLY MENU column -->
                     <table class="left-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding:0; margin-bottom: 30px;">
                       <tr>
                         <td align="center">
 
-                          <!-- start of icon table -->
+
                           <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td class="icon" width="20%" align="center">
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/menu_icon.webp"
-                                  alt="">
-                              </td>
-                              <td class="header" width="70%" align="center">
-                                <h5 style="
-                          font-family: 'Open Sans', sans-serif;
-                          color: #333333;
-                          padding: 0;
-                          font-weight: 600;
-                          text-transform: uppercase;
-                          font-size: 14px;
-                          margin: 0;
-                        ">
-                                  User Friendly menu
-                                </h5>
+                              <td class="icon" width="100%">
+                                <!-- start of icon table -->
+                                <table align="center">
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src=" https://joelmuhoho.com/projects/emails/watch_email/images/menu_icon.webp"
+                                        alt="menu_icon">
+                                    </td>
+                                    <td>
+                                      <h5 style="
+                                  font-family: 'Open Sans', sans-serif;
+                                  color: #333333;
+                                  padding: 0;
+                                  font-weight: 600;
+                                  text-transform: uppercase;
+                                  font-size: 14px;
+                                  margin: 0;">
+                                        USER FRIENDLY MENU
+                                      </h5>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <!-- end of icon table -->
                               </td>
                             </tr>
-                          </table>
-                          <!-- end of icon table -->
-
-                          <!-- Start of paragraph table -->
-                          <table>
+                            <!-- Start of paragraph -->
                             <tr>
                               <td width="100%" align="center">
                                 <p style="
@@ -1039,72 +1126,79 @@
                           font-size: 14px;
                           line-height: 1.8;
                           margin: 0;
-                          padding: 0;
-                        ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                          padding: 0 10px;
+                        ">Easy to navigate around the user
+                                  interface with ease</p>
                               </td>
                             </tr>
+                            <!-- end of paragraph -->
                           </table>
-                          <!-- end of paragraph table -->
-
                         </td>
                       </tr>
                     </table>
-                    <!-- End User Friendly menu column -->
+                    <!-- End USER FRIENDLY MENU column -->
 
-                    <!-- start social share column -->
+                    <!-- start SOCIAL SHARE column -->
                     <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0"
                       style="padding:0; margin-bottom: 30px;">
                       <tr>
                         <td align="center">
 
-                          <!-- start of icon table -->
+                          <!-- start of SOCIAL SHARE table -->
                           <table class="icon-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
                             style="padding:0; margin: 0  0 0 0;">
                             <tr>
 
-                              <td class="icon" width="20%" align="center">
-                                <img src="https://joelmuhoho.com/projects/emails/watch_email/images/share_icon.webp"
-                                  alt="">
-                              </td>
-                              <td class="header" width="70%" align="center">
-                                <h5 style="
-                        font-family: 'Open Sans', sans-serif;
-                        color: #333333;
-                        padding: 0;
-                        font-weight: 600;
-                        text-transform: uppercase;
-                        font-size: 14px;
-                        margin: 0;
-                      ">
-                                  social share
-                                </h5>
+                              <td class="icon" width="100%" align="center">
+                                <table>
+                                  <tr>
+                                    <td>
+                                      <img
+                                        src="https://joelmuhoho.com/projects/emails/watch_email/images/share_icon.webp"
+                                        alt="">
+                                    </td>
+                                    <td>
+                                      <h5 style="
+                                    font-family: 'Open Sans', sans-serif;
+                                    color: #333333;
+                                    padding: 0;
+                                    font-weight: 600;
+                                    text-transform: uppercase;
+                                    font-size: 14px;
+                                    margin: 0;
+                                  ">
+                                        SOCIAL SHARE
+                                      </h5>
+                                    </td>
+                                  </tr>
+                                </table>
+
+
                               </td>
                             </tr>
-                          </table>
-                          <!-- end of icon table -->
-
-                          <!-- Start of paragraph table -->
-                          <table>
+                            <!-- Start of paragraph  -->
                             <tr>
                               <td width="100%" align="center">
                                 <p style="
-                        font-family: 'Open Sans', sans-serif;
-                        color: #7f8887;
-                        font-weight: 300;
-                        font-size: 14px;
-                        line-height: 1.8;
-                        margin: 0;
-                        padding: 0;
-                      ">Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                                    font-family: 'Open Sans', sans-serif;
+                                    color: #7f8887;
+                                    font-weight: 300;
+                                    font-size: 14px;
+                                    line-height: 1.8;
+                                    margin: 0;
+                                    padding: 0 10px;
+                                  ">Share Your experiences directly from the watch
+                                </p>
                               </td>
                             </tr>
+                            <!-- end of paragraph -->
                           </table>
-                          <!-- end of paragraph table -->
+                          <!-- end of SOCIAL SHARE table -->
 
                         </td>
                       </tr>
                     </table>
-                    <!-- End social share column -->
+                    <!-- End SOCIAL SHARE column -->
 
                   </td>
                 </tr>
@@ -1119,22 +1213,10 @@
           <tr>
             <td>
               <table class="intrest-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="
-                background: #65fffd;
-                background: -moz-linear-gradient(
-                  -45deg,
-                  #65fffd 0%,
-                  #2296ee 100%
-                );
-                background: -webkit-linear-gradient(
-                  -45deg,
-                  #65fffd 0%,
-                  #2296ee 100%
-                );
-                background: linear-gradient(
-                  135deg,
-                  #65fffd 0%,
-                  #2296ee 100%
-                );
+                background: #a01201; /* Old browsers */
+                background: -moz-linear-gradient(-45deg, #a01201 0%, #e21e11 50%, #eb613b 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(-45deg, #a01201 0%,#e21e11 50%,#eb613b 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(135deg, #a01201 0%,#e21e11 50%,#eb613b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                 padding:0 0 50px 0;;
               ">
                 <!-- Start of header -->
@@ -1147,7 +1229,7 @@
               font-weight: 300;
               text-transform: capitalize;
               font-size: 24px;
-              ">Intrested in our app?</h3>
+              ">Own FIT2 Watch</h3>
                   </td>
                 </tr>
                 <!-- end of header -->
@@ -1164,8 +1246,8 @@
                 padding: 0 0 30px 0;
                 max-width: 75%;
                 ">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum porro Ipsum porro Ipsum porro Ipsum
-                      porro.
+                      Fit2 smartwatche allow you to receive notifications and control various functions on your
+                      smartphone without taking it out of your pocket or purse.
                   </td>
                 </tr>
                 <!-- end of paragraph -->
@@ -1184,7 +1266,7 @@
                 border: 2px solid white;
                 border-radius: 2px;
                 ">
-                      Request a Quote
+                      Get Yours Now
                     </a>
                   </td>
                 </tr>
@@ -1193,9 +1275,9 @@
               </table>
             </td>
           </tr>
-          <!-- end of intrested row(8) -->
+          <!-- end of intrested row(7) -->
 
-          <!-- start footer row(9) -->
+          <!-- start footer row(8) -->
           <tr>
             <td>
               <table class="footer-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0"
@@ -1282,7 +1364,7 @@
               </table>
             </td>
           </tr>
-          <!-- end of footer row(9) -->
+          <!-- end of footer row(8) -->
 
         </table>
         <!-- end of container -->
