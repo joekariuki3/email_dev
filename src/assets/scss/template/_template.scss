@@ -10,12 +10,12 @@ html,
 }
 
 .header {
-  background: $primary-color;
-  background-color: $primary-color;
+  background: #e4e5ea;
+  background-color: #e4e5ea;
   .columns{
     padding: 20px;
     .logo-white{
-      width: 128px;
+      width: 120px;
     }
     .user-icon{
       width: 32px;
@@ -24,8 +24,8 @@ html,
 }
 
 .sub-header {
-  background: #d65600;
-  background-color: #d65600;
+  background: #a4a462;
+  background-color: #a4a462;
   .columns{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -50,14 +50,14 @@ html,
     display: block;
     height: 20px;
     width: 2px;
-    background-color: $primary-color;
-    background: $primary-color;
+    background-color: #ffffff;
+    background: #ffffff;
   }
 }
 
 .deal-of-day{
-  background:#13191f ;
-  background-color: #13191f;
+  background:#eeeeee ;
+  background-color: #eeeeee;
   .columns{
     th{
       padding-top: 30px !important;
@@ -69,7 +69,7 @@ html,
     border-radius: 5px;
   }
   h2{
-    color: white;
+    color: black;
     font-weight: 700;
     font-size: 30px;
     text-align: center;
@@ -77,13 +77,13 @@ html,
   }
   p{
     padding-bottom: 20px;
-    color: white;
-    font-weight: 600;
+    color: black;
+    font-weight: light;
     font-size: 16px;
     text-align: center;
   }
   span{
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 16px;
     text-align: center;
@@ -109,11 +109,12 @@ html,
     text-align: center;
     padding-top: 7px;
     padding-bottom: 7px;
-    border: 1px solid white;
+    border: 1px solid #eeeeee;
     border-radius: 5px;
-    color: white;
+    background-color: #f37221;
+    color: black;
     &:hover{
-      color: $primary-color;
+      color: white;
     }
   }
 
@@ -121,15 +122,15 @@ html,
 }
 
 .content-area{
-  background:#f1f4f7 ;
-  background-color: #f1f4f7;
+  background:#eeeeee ;
+  background-color: #eeeeee;
   & > tbody > tr > th {
     padding-top:16px;
    padding-bottom: 0;
   }
   .offer{
-    background:#ffffff ;
-    background-color: #ffffff;
+    background:#eeeeee ;
+    background-color: #eeeeee;
     .columns{
       th{
         padding-top: 20px;
@@ -145,7 +146,7 @@ html,
     p{
       padding-bottom: 20px;
       color: #334755;
-      font-weight: 600;
+      font-weight: light;
       font-size: 16px;
       text-align: center;
     }
@@ -181,11 +182,12 @@ html,
       text-align: center;
       padding-top: 7px;
       padding-bottom: 7px;
-      border: 1px solid white;
-      border-radius: 3px;
-      color: white;
+      border: 1px solid #eeeeee;
+      border-radius: 5px;
+      background-color: #f37221;
+      color: black;
       &:hover{
-        color: $primary-color;
+      color: white;
       }
     }
   &.last-offer{
@@ -213,8 +215,8 @@ html,
   }
 }
 .footer-top{
-  background-color: #222d37;
-  background: #222d37;
+  background-color: #e4e5ea;
+  background: #e4e5ea;
 
   & > tbody > tr > th {
     padding-top: 20px !important;
@@ -228,7 +230,7 @@ html,
   }
   .info-section span{
     display: block;
-    color: white;
+    color: black;
     padding-left: 10px;
     
   }
@@ -253,34 +255,30 @@ html,
 }
 
 .footer-socials {
-  background: #14181c;
-  background-color: #14181c;
+  background: #e4e5ea;
+  background-color: #e4e5ea;
   .columns{
     padding-top: 20px !important;
     padding-bottom: 20px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
-    // .logo-section{}
-    .logo-orange{
-      width: 128px;
-    }
     .social-icons{
       margin: 0 auto;
     }
     .social-icon{
       width: 32px;
       display: inline-block;
-      padding: 2px;
+      padding: 20px;
       margin: 0 auto;
     }
   }
 }
 
 .footer-menu{
-  background: #14181c;
-  background-color: #14181c;
-  border-bottom: 1px solid #2d3e4b;
-  border-top: 1px solid #2d3e4b;
+  background: #a4a462;
+  background-color: #a4a462;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
   .columns{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -305,20 +303,20 @@ html,
     display: block;
     height: 20px;
     width: 2px;
-    background-color: #2d3e4b;
-    background: #2d3e4b;
+    background-color: black;
+    background: black;
   }
 }
 
 .footer-bottom{
-  background-color: #14181c;
-  background: #14181c;
+  background-color: #e4e5ea;
+  background: #e4e5ea;
   .lower-links{
     .lower-links-column{
       padding-top: 20px;
       padding-bottom: 20px;
     a{
-      color: white;
+      color: black;
       font-size: 14px;
       padding: 0 10px;
       &:hover {
@@ -330,7 +328,7 @@ html,
   .privacy{
     
     p{
-      color: #86888a;
+      color: #adadb2;
       font-size: 10px;
       padding: 0 20px;
     }
@@ -340,7 +338,7 @@ html,
     .copyright-column{
       padding-bottom: 0;
     p{
-      color: #d0d0d1;
+      color: #adadb2;
       font-size: 12px;
       font-weight: 400;
       padding-top: 0;
@@ -354,7 +352,7 @@ html,
     .adress-column{
       padding-top: 0;
     p{
-      color: #d0d0d1;
+      color: #adadb2;
       font-size: 12px;
       font-weight: 400;
       padding-top: 0;

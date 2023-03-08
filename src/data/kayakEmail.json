@@ -1,43 +1,43 @@
 {
-    "title": "Fly to Ireland with less than $700 round trip plus more!",
+    "title": "Fly to Amboseli  with less than KSH 15,000 round trip plus more!",
     "dealOfTheDay": {
-        "location": "Ireland: ",
-        "description": "8 days with air, hotel and car rental. Use promo code CFDL110 to save. Price reflects NYC depature, other cities available",
-        "saveAmount": "Save $110 with code",
+        "location": "Amboseli National Park: ",
+        "description": "Crowned by Mount Kilimanjaro, Africa's highest peak, the Amboseli National Parks is one of Kenya's most popular parks",
+        "saveAmount": "Save KSH 7,000 with code",
         "tinyInfo": "Gate 1 Travel",
-        "price": "$649+",
+        "price": "KSH 3,000 +",
         "link": "#",
-        "image": "https://joelmuhoho.com/emails/kayak_email/images/ireland.png"
+        "image": "https://joelmuhoho.com/projects/emails/bonfire_email/images/ammboseli.webp"
 
     },
     "offers":
     [
         {
-            "location": "Cancun: ",
-            "description": "4 nights with air and Melody Maker Cancun stay. Price reflects MIA departure, other cities available",
+            "location": "Lake Nakuru: ",
+            "description": "Descend into the Great Rift Valley on a full-day trip from Nairobi to Lake Nakuru National Park, where you'll take a game drive to explore spectacular landscapes and wildlife.",
             "saveAmount": "Save up to 65%",
-            "tinyInfo": "CheapCaribean.com",
-            "price": "$689+",
+            "tinyInfo": "NakuruLauge.com",
+            "price": "KSH 24,000 +",
             "link": "#",
-            "image": "https://joelmuhoho.com/emails/kayak_email/images/cancun.png"
+            "image": "https://joelmuhoho.com/projects/emails/bonfire_email/images/lake-nakuru.webp"
         },
         {
-            "location": "China: ",
-            "description": "spend 7 nights with air and Melody Maker China stay. Price reflects MIA departure, other cities available",
+            "location": "Maasai Mara: ",
+            "description": "You are about to visit one of the best tourist destination in the world",
             "saveAmount": "Save up to 75%",
-            "tinyInfo": "chinaAir.com",
-            "price": "$800+",
+            "tinyInfo": "Jambojet.com",
+            "price": "KSH 28,000 +",
             "link": "#",
-            "image": "https://joelmuhoho.com/emails/kayak_email/images/china.jpg"
+            "image": "https://joelmuhoho.com/projects/emails/bonfire_email/images/masai-mara.webp"
         },
         {
-            "location": "London: ",
-            "description": "Visit the castles at Landon ",
+            "location": "Nairobi National park: ",
+            "description": "Nairobi is home to dozens of incredible sites and this full-day tour showcases some of the best of this East African city.",
             "saveAmount": "Save up to 55%",
-            "tinyInfo": "LondonBooking.com",
-            "price": "$340+",
+            "tinyInfo": "NairobiBooking.com",
+            "price": "KSH 12,000 +",
             "link": "#",
-            "image": "https://joelmuhoho.com/emails/kayak_email/images/london.png"
+            "image": "https://joelmuhoho.com/projects/emails/bonfire_email/images/nairobi.webp"
         }
     ]
 }
