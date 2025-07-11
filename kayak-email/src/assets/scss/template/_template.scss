@@ -1,0 +1,365 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #e4e5ea !important;
+  background-color: #e4e5ea;
+}
+
+.header {
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+  .columns{
+    padding: 20px;
+    .logo-white{
+      width: 120px;
+    }
+    .user-icon{
+      width: 32px;
+    }
+  }
+}
+
+.sub-header {
+  background: #a4a462;
+  background-color: #a4a462;
+  .columns{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    a{
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .icons{
+      width: 20px;
+      margin-right:10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    th{
+      text-align: center;
+    }
+  }
+  .menu-divider{
+    display: block;
+    height: 20px;
+    width: 2px;
+    background-color: #ffffff;
+    background: #ffffff;
+  }
+}
+
+.deal-of-day{
+  background:#eeeeee ;
+  background-color: #eeeeee;
+  .columns{
+    th{
+      padding-top: 30px !important;
+      padding-bottom: 20px;
+    }
+  }
+  img{
+    padding-bottom: 20px;
+    border-radius: 5px;
+  }
+  h2{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  p{
+    padding-bottom: 20px;
+    color: black;
+    font-weight: light;
+    font-size: 16px;
+    text-align: center;
+  }
+  span{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    &.save-amount{
+      font-size: 14px;
+    }
+    &.tiny-info{
+      font-size:10px ;
+      font-weight: 300;
+      padding-bottom: 10px;
+    }
+    &.price{
+      font-size:20px ;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    
+  }
+  .button{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    background-color: #f37221;
+    color: black;
+    &:hover{
+      color: white;
+    }
+  }
+
+
+}
+
+.content-area{
+  background:#eeeeee ;
+  background-color: #eeeeee;
+  & > tbody > tr > th {
+    padding-top:16px;
+   padding-bottom: 0;
+  }
+  .offer{
+    background:#eeeeee ;
+    background-color: #eeeeee;
+    .columns{
+      th{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+    }
+    img{
+      padding-bottom: 20px;
+      border-radius: 5px;
+    }
+    p{
+      padding-bottom: 20px;
+      color: #334755;
+      font-weight: light;
+      font-size: 16px;
+      text-align: center;
+    }
+    span{
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+      display: block;
+      &.save-amount{
+        font-size: 14px;
+        color: #1a88f3;
+      }
+      &.tiny-info{
+        font-size:10px ;
+        font-weight: 500;
+        color: #334755;
+        padding-bottom: 10px;
+      }
+      &.price{
+        font-size:20px ;
+        font-weight: 600;
+        color: #334755;
+        padding-bottom: 10px;
+      }
+      
+    }
+    .button{
+      background: #14181c;
+      background-color: #14181c;
+      display: inline-block;
+      width: 150px;
+      text-align: center;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border: 1px solid #eeeeee;
+      border-radius: 5px;
+      background-color: #f37221;
+      color: black;
+      &:hover{
+      color: white;
+      }
+    }
+  &.last-offer{
+    .group-icons{
+      width: 190px;
+      margin: 0 auto;
+      padding-bottom: 0;
+    }
+    h4{
+      padding-bottom:0;
+      color: #334755;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+    }
+    p{
+      padding-bottom: 20px;
+      color: #334755;
+      font-weight: 400;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  
+  }
+}
+.footer-top{
+  background-color: #e4e5ea;
+  background: #e4e5ea;
+
+  & > tbody > tr > th {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  
+  th{
+    padding-bottom: 0;
+  }
+  .info-section span{
+    display: block;
+    color: black;
+    padding-left: 10px;
+    
+  }
+  .info{
+    font-size: 10px;
+  }
+  .call-to-action{
+    font-size: 15px;
+  }
+  .store-logos img{
+    height: 40px;
+    width: 120px;
+  }
+  .apple-logo img{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .google-logo img{
+    padding-right: 0;
+    padding-left: 5px;
+  }
+}
+
+.footer-socials {
+  background: #e4e5ea;
+  background-color: #e4e5ea;
+  .columns{
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    .social-icons{
+      margin: 0 auto;
+    }
+    .social-icon{
+      width: 32px;
+      display: inline-block;
+      padding: 20px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.footer-menu{
+  background: #a4a462;
+  background-color: #a4a462;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  .columns{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+    a{
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .icons{
+      width: 20px;
+      margin-right:10px;
+      display: inline-block;
+      vertical-align: bottom;
+    }
+    th{
+      text-align: center;
+    }
+  }
+  .menu-divider{
+    display: block;
+    height: 20px;
+    width: 2px;
+    background-color: black;
+    background: black;
+  }
+}
+
+.footer-bottom{
+  background-color: #e4e5ea;
+  background: #e4e5ea;
+  .lower-links{
+    .lower-links-column{
+      padding-top: 20px;
+      padding-bottom: 20px;
+    a{
+      color: black;
+      font-size: 14px;
+      padding: 0 10px;
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+  }
+  .privacy{
+    
+    p{
+      color: #adadb2;
+      font-size: 10px;
+      padding: 0 20px;
+    }
+  }
+
+  .copyright{
+    .copyright-column{
+      padding-bottom: 0;
+    p{
+      color: #adadb2;
+      font-size: 12px;
+      font-weight: 400;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 20px;
+      padding-right: 0;
+    }
+  }
+  }
+  .adress{
+    .adress-column{
+      padding-top: 0;
+    p{
+      color: #adadb2;
+      font-size: 12px;
+      font-weight: 400;
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-left: 20px;
+      padding-right: 0;
+    }
+  }
+}
+}
